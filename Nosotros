@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solofrenos Automotrices</title>
+</head>
+<body>
+    <header>
+        <nav class="Inicio"><img src="./IMG/LogoEmpresa-removebg-preview.png" alt="Logo de Solofrenos Automotrices"
+                width="280" height="150"></nav>
+        <nav class="Barra"></nav>
+        <nav class="Menu">
+            <ul>
+                <li><a href="./Inicio.html">Inicio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="./Nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

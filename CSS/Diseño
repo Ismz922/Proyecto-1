@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+  }
+.Inicio{
+    background-color: #fff;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1em;
+    color: #fff;
+    height: 9em;
+    padding: 3px 4px 15px 20px;
+}
+.Barra{
+    background-color: #c32c33;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1em;
+    color: #fff;
+    height: 0.5em;
+    padding: 1px 1px 15px 20px;
+}
+.Menu{
+    background-color: #9b9c9e;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1em;
+    color: #fff;
+    height: 2em;
+    padding: 3px 4px 15px 35px;
+    
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 15px;
+}
+ nav a{
+    color: black;
+text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #86191D;
+}
+main{
+    max-width: 98%;
+    margin: auto auto;
+    padding-bottom: 60px;
+  
+}
+.miniDiv{
+    background-color: #c32c33;
+    width: 40%;
+    font-size: 1em;
+    line-height: 1em;
+    color: #000;
+    height: 1.5em;
+    padding: 2px 2px 5px 7px;
+
+}
+.caja-seccion{
+    padding: 1em;
+    margin: 1em;
+}
+.caja-Contactos{
+    background-color: black;
+    text-align: left;
+    font-size: 18px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin-right: 2%;
+    float: left;
+    color: white;
+}
+.caja-Contactos img{
+    float: left;
+    max-width: 46%;
+    
+}

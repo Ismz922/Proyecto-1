@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Css/Diseños.css" rel="stylesheet" />
     <title>Solofrenos Automotrices</title>
 </head>
+
 <body>
     <header>
         <nav class="Inicio"><img src="./IMG/LogoEmpresa-removebg-preview.png" alt="Logo de Solofrenos Automotrices"
@@ -18,5 +21,63 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <article>
+                <h1>Acerca de nosotros</h1>
+                <p>Somos un local comercial el cual brinda servicios de reparación y mantenimiento automotriz, el cual
+                    ha servido a los vehículos de Costa Rica por <br>
+                    más de 17 años en varias locaciones como en Cristo Rey por 3 años, La trinidad por un año, 12 años
+                    en el Pacto del Jocote y 2 actualmente en Lotes Vargas <br>
+                    donde nuestra mayor prioridad es brindar un servicio responsable enfocado en la seguridad de
+                    nuestros clientes, maximizando la calidad y el servicio. <br><br></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h1>Testimonios/Reseñas de clientes satisfechos</h1>
+                <div class="caja-Para-Textos">
+                    <div id="scroll" class="caja-Reseñas">
+                        <h1>Eduardo González Bustos <br></h1>
+                        <p> <br>Excelente servicio, por experiencia propia llevar el auto. Ellos se encargan de
+                            encontrar el disco que se necesita, evitando comprar uno que no sea el tipo correcto.<br>
+                            Se mueven rápido, uno no tiene que preocuparse por los repuestos, pero ellos de alguna forma
+                            lo consiguen. <br>
+                            Profesionales en frenos, que muy recomendados! <br><br></p>
+                        <h1>Alejandro Rodriguez <br><br></h1>
+                        <p>Un taller de reparación con bastante personal bien entrenado y dispuesto a explicarle a uno
+                            de manera clara y concisa la situación que ocurre con el carro. <br>
+                            Los precios son estándar por lo que yo no dudaría en llevar mi vehículo otra vez. <br><br>
+                        </p>
+                        <h1>Carlos Arroyo <br> <br></h1>
+                        <p>Hace poco fuí y el servicio me pareció bastante bueno, el profesionalismo para hacer las
+                            cosas es exelente. Buen precio y personal capacitado... Recomendado 100% <br><br></p>
+                        <h1>Ricardo Estrada <br> <br></h1>
+                        <p>Los mejores en Frenos en Alajuela!!!</p>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div class="miniDiv">
+                    <h1>Trabajos exitosos</h1>
+                </div>
+                <div class="caja-Para-Textos">
+                    <div id="scroll" class="caja-Exitos">
+                        <h1>Discos ranurados y perforados </h1>
+                        <img src="./IMG/Discos ranurados y perforados.jpg" width="350" height="400">
+                        <h1><br>Cambios de pastillas de cerámica</h1>
+                        <img src="./IMG/Cambio de pastillas cerámica.jpg" width="350" height="400">
+                        <h1><br>Rectificacion de discos</h1>
+                        <img src="./IMG/Rectificación de discos.jpg" width="350" height="400">
+                    </div>
+
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
+
 </html>

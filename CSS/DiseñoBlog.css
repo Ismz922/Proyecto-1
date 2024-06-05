@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box ;
+  }
+  
+  body {
+    padding: 20px;
+    background: #f0f0f0;
+  }
+  
+  .columnaIzquierda {   
+    float: left;
+    width: 75%;
+  }
+  .columnaDerecha {
+    float: left;
+    width: 25%;
+    padding-left: 25px;
+  }
+
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  
+  .publicacion {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  /*
+  @media screen and (max-width: 800px) {
+    .columnaIzquierda, .columnaDerecha {   
+      width: 100%;
+      padding: 0;
+    }
+    
+  }
+  */

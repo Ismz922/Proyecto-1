@@ -1,0 +1,35 @@
+.PYS-container {
+    display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+}
+.PYS {
+    background-color: rgba(240, 240, 240, 0.5);
+    border: 1px solid #f0f0f0;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.PYS img{
+    max-width: 100%;
+    height: auto;
+}
+.content {
+    padding: 1rem;
+}
+.Videos-container{
+margin-left: 20em;
+margin-right: 20em;
+}
+.Videos {
+    background-color: rgba(155, 156, 158, 0.5);
+    border: 1px solid #9b9c9e;
+    padding: 1em;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}

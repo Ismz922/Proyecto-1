@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Css/Diseños.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./Css/PYSDiseños.css">
+    <title>Productos y servicios</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="Inicio"><img src="./IMG/LogoEmpresa-removebg-preview.png" alt="Logo de Solofrenos Automotrices"
+                width="280" height="150"></nav>
+        <nav class="Barra"></nav>
+        <nav class="Menu">
+            <ul>
+                <li><a href="./Inicio.html">Inicio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="./Nosotros.html">Nosotros</a></li>
+                <li><a href="./Productos-Y-Servicios.html">Productos y servicios</a></li>
+                <li><a href="./Preguntas-Frecuentes.html">Preguntas frecuentes</a></li>
+                <li><a href="./Acerca-De.html">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <section>
+            <h1 style="text-align: center ; padding-top: 2em;"> <b>Productos y Servicios</b></h1>
+            <div class="PYS-container">
+                <div class="PYS">
+                    <img src="./IMG/Rectificacion.jpg" alt="Discos rectificados">
+                    <h3><b>Rectificacion</b></h3>
+                    <p>Se coloca el disco/tambor en el torno y se desgasta </p>
+                    <p> las bandas de frenado para quitar vibraciones y oscilaciones a la hora de frenar</p>
+                    <p><b>Precio: </b> &#162 7000</p>
+                </div>
+                <div class="PYS">
+                    <img src="./IMG/CambioDeLiquido.jpg" height="200px" width="250px" alt="Botellas Wurth de liquido de freno">
+                    <h3><b>Cambio de liquido</b></h3>
+                    <p>Se recomienda como minimo una vez al año, esto para mejorar la eficiencia </p>
+                    <p> en la frenada y evitar el calentamiento que conlleva la perdida </p>
+                    <p> de presión y se hace mediante una máquina de vacío.</p>
+                    <p><b>Precio: </b>&#162 25000</p>
+                </div>
+                <div class="PYS">
+                    <img src="./IMG/Vulcanizacion.jpg" height="200px" width="250px" alt="Pastillas y zapatas">
+                    <br>
+                    <br><br><br><br><br>
+                    <h3><b>Venta e instalación de pastillas y zapatas</b></h3>
+                    <p>Pensando en un servicio complementario brindamos la instalación de pastillas y zapatas</p>
+                    <p> de diferentes materiales tales como fibras semimetálicas y de cerámica.</p>
+                    <p><b>Precio: </b>&#162 18000</p>
+                </div>
+                <div class="PYS">
+                    <img src="./IMG/Preventivo.jpg" height="200px" width="250px" alt="Un carro que le hacen los ajustes preventivos">
+                    <br>
+                    <br><br>
+                    <h3><b>Ajustes y mantenimientos preventivos</b></h3>
+                    <p>Este servicio consta de chequeo visual de diferentes puntos para determinar tanto el desgaste</p>
+                    <p>de las fibras y la lubricación de las partes móviles, prematuros derrames de líquidos </p>
+                    <p> para el funcionamiento adecuado del sistema de frenos.</p>
+                    <p><b>Precio: </b>&#162 0000</p>
+                </div>
+                <div class="PYS">
+                    <img src="./IMG/VulcanizacionVerdad.jpg" height="200px" width="250px" alt="Unas zapatas vulcanizadas">
+                    
+                    <h3><b>Vulcanización de zapatas</b></h3>
+                    <p>La vulcanización consta de la eliminación de la fibra desgastada y la postura de una fibra</p>
+                    <p> nueva dando las posibilidades de usar varios tipos de grosor de fibra.</p>
+                    <p><b>Precio: </b>&#162 17000</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 style="text-align: center ; padding-top: 2em; padding-bottom: 2em;"><b>Videos de interés</b></h2>
+            <div class="Videos-container">
+                <div class="Videos">
+                    <h1>Rectificacion de un disco</h1>
+                    <video src="./Video/Rectificacion.mp4" style="height: 200px; width: 300px;"
+                        controls="controls"></video>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+</body>
+
+</html>

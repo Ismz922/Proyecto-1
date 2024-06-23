@@ -5,7 +5,12 @@
     font-size: 100%;
     font-family: inherit;
     
+    
   }
+  html{
+    overflow-x: hidden;
+  }
+ 
   .Inicio{
     
     width: 82em;
@@ -38,6 +43,7 @@
     background-image: url("https://c4.wallpaperflare.com/wallpaper/162/50/445/car-engine-engine-mechanical-racing-wallpaper-preview.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
   body{
     background-image: url("https://i.pinimg.com/736x/a2/69/1b/a2691b0c2635ec4a554f15e2e23bc7d3.jpg");
@@ -46,18 +52,19 @@
     padding: 20px;
   }
   .Transparente{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
  
   }
 
 nav ul{
     list-style: none;
+    
 }
 
 ul{
     list-style: none;
-    padding-left: 50px;
+    padding-left: 180px;
 }
 nav ul li{
     display: inline;
@@ -92,6 +99,7 @@ left: 0;
 }
 p{
     padding-top: 3px;
+    font-size: large;
 }
 .Titulos{
     margin-left: 7em;
@@ -162,6 +170,7 @@ p{
   }
 h1{
     padding-bottom: 1em;
+    font-size: 22px;
 }
  #scroll{
             width: 90%;
@@ -169,6 +178,12 @@ h1{
             overflow-y: auto;
         }
 .Texto{
-    padding-left: 2em;
+    padding-left: 8em;
     
+}
+h3{
+    font-size: 1.5em;
+}
+footer{
+    bottom: 0;
 }

@@ -5,13 +5,39 @@
   gap: 1rem;
 }
 .PYS {
-    background-color: rgba(240, 240, 240, 0.5);
+    background-color: rgba(240, 240, 240, 0.8);
     border: 1px solid #f0f0f0;
     padding: 1rem;
     border-radius: 5px;
     text-align: center;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+.Mini {
+    background-color: rgba(240, 240, 240, 0.8);
+    border: 1px solid #f0f0f0;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    margin-left: 26em;
+    
+    
+}
+.Mini2 {
+    background-color: rgba(240, 240, 240, 0.8);
+    border: 1px solid #f0f0f0;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+   margin-left: 19em;
+    
+    
 }
 .PYS img{
     max-width: 100%;
